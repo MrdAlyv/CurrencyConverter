@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .header {
+        text-align: center;
+        color: rgba(31, 34, 97, 1);
+        margin: 50px;
+    }
+
+    .container {
+        margin: 20%;
+    }
+
+    /* from */
+    .amountHeader {
+        color: rgba(152, 152, 152, 1);
+        margin-bottom: 13px;
+        font-size: 20px;
+    }
+
+    .from {
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #from-currency {
+        color: rgba(38, 39, 141, 1);
+        font-size: 20px;
+        font-weight: 500;
+        border: none;
+    }
+
+    #amount {
+        font-size: 20px;
+        background-color: rgba(239, 239, 239, 1);
+        border: none;
+        padding: 13px;
+        border-radius: 7px;
+        width: 100%;
+    }
+
+
+    /* to */
+    .converted {
+        color: rgba(152, 152, 152, 1);
+        font-size: 20px;
+
+        margin: 100px 0 13px;
+    }
+
+    .to {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #to-currency {
+        color: rgba(38, 39, 141, 1);
+        font-size: 20px;
+        font-weight: 500;
+        border: none;
+    }
+
+    #result {
+        font-size: 20px;
+        background-color: rgba(239, 239, 239, 1);
+        border: none;
+        padding: 13px;
+        border-radius: 7px;
+        width: 100%;
+    }
+
+
+
+    /* Button */
+    #convert-btn {
+        background-color: rgba(38, 39, 141, 1);
+        border-radius: 50%;
+        width: 84px;
+        height: 84px;
+        margin: 0 28%;
+    }
+
+    #convert-btn>img {
+        width: 44px;
+        height: 44px;
+    }
+}
